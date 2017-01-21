@@ -1,1 +1,29 @@
 /*Only use this file if you want to override bootstrap or create your own style*/
+body {
+    background-image: url(https://s-media-cache-ak0.pinimg.com/564x/cc/46/7c/cc467caf4418d54c05d44b4ee7e41ced.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hydra {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    height: 300px;
+}
+
+.twilight-sparkle {
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    height: 100px;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
+.button-container {
+    margin-top: 5%;
+}
