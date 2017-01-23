@@ -5,11 +5,21 @@
 	<link rel="stylesheet" href="game.css">
 </head>
 <body>
+	<span>Enemy:<span id="enemyId">--</span></span>
+	<span>Health:<span id="healthId">--</span></span>
+	<span>Hits:<span id="hitsId">--</span></span>
+
 	<div class="button-container">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-4 col-sm--offset-2">
 					<button onclick="slap()">Slap</button>
+				</div>
+				<div class="col-sm-4 col-sm--offset-2">
+					<button onclick="punch()">Punch</button>
+				</div>
+				<div class="col-sm-4 col-sm--offset-2">
+					<button onclick="kick()">Kick</button>
 				</div>
 			</div>
 		</div>
